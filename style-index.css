@@ -56,4 +56,14 @@ h3, h4, p, li{
     text-align: center;
     font-style: italic;
 }
+/* corpo da pagina */
+.body-block{
+    background-color: rgb(236, 236, 229);
+    padding-right: 10%;
+    padding-left: 5%;
+}
+.body-block h3{
+    color: rgb(144, 41, 35);
+    padding-top: 15px ;
+}
 
