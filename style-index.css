@@ -42,6 +42,7 @@ h3, h4, p, li{
     display: inline-block;
     padding: 5px 20px;    
     width: 23%;
+    text-align: center;
 }
 .button a{
     color: rgb(214, 213, 201);
