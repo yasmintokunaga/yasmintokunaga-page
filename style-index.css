@@ -1,0 +1,92 @@
+/* <palette>
+  <color name="Rich Black FOGRA 39" hex="0a100d" r="10" g="16" b="13" />
+  <color name="Laurel Green" hex="b9baa3" r="185" g="186" b="163" />
+  <color name="Timberwolf" hex="d6d5c9" r="214" g="213" b="201" />
+  <color name="Auburn" hex="a22c29" r="162" g="44" b="41" />
+  <color name="Burnt Umber" hex="902923" r="144" g="41" b="35" />
+</palette> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ruluko', sans-serif;
+    line-height: 22px;
+    color: rgb(10,16,13);
+}
+/* Ajuste de expaçamento entre linhas */
+h3, h4, p, li{
+ margin-bottom: 10px;   
+}
+/* rodapé Yasmin Souza Tokunaga */
+.header { 
+    background-color: rgb(162, 44, 41);
+    color: rgb(236, 236, 229);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.menu{
+    background-color: rgb(144, 41, 35);
+    position: sticky;
+    top: 121px;
+    
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 20px;    
+    width: 23%;
+}
+.button a{
+    color: rgb(214, 213, 201);
+}
+/* bloco de introdução, bem vindo ao perfil */
+.introduction {
+    background-color: rgb(214, 213, 201);
+    padding: 50px 100px 10px 100px;
+}
+.introduction-block{    
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 17px;
+    display: inline-block;        
+    vertical-align: middle;
+}
+.image-perfil {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70%;
+    border-color: rgb(144, 41, 35);
+    border-style: solid;
+    border-width: 3px;
+}
+.subtitle {
+    text-align: center;
+    font-style: italic;
+}
+/* corpo da pagina */
+.body-block{
+    background-color: rgb(236, 236, 229);
+    padding-right: 10%;
+    padding-left: 5%;
+}
+.body-block h3{
+    color: rgb(144, 41, 35);
+    padding-top: 15px ;
+}
+
+.skill-block{
+    width: 40%;
+    padding: 17px;
+    display: inline-block;        
+    vertical-align: middle;
+}
