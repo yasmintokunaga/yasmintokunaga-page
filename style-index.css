@@ -83,6 +83,7 @@ h3, h4, p, li{
 .body-block h3{
     color: rgb(144, 41, 35);
     padding-top: 15px ;
+    font-family: 'Courgette', 'cursive';
 }
 
 .skill-block{
