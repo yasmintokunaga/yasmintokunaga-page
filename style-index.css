@@ -24,8 +24,8 @@ h3, h4, p, li{
 .header { 
     background-color: rgb(162, 44, 41);
     color: rgb(236, 236, 229);
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 35px;
     padding: 50px;
     text-align: center;
     position: sticky;
@@ -90,4 +90,7 @@ h3, h4, p, li{
     padding: 17px;
     display: inline-block;        
     vertical-align: middle;
+}
+.skill-block h4{
+    text-decoration: underline;
 }
