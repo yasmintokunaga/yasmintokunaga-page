@@ -23,11 +23,28 @@ h3, h4, p, li{
 /* rodapé Yasmin Souza Tokunaga */
 .header { 
     background-color: rgb(162, 44, 41);
-    color: white;
+    color: rgb(236, 236, 229);
     font-family: 'Lobster', cursive;
     font-size: 20px;
     padding: 50px;
     text-align: center;
+    position: sticky;
+    top: 0;
+}
+.menu{
+    background-color: rgb(144, 41, 35);
+    position: sticky;
+    top: 121px;
+    
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 20px;    
+    width: 23%;
+}
+.button a{
+    color: rgb(214, 213, 201);
 }
 /* bloco de introdução, bem vindo ao perfil */
 .introduction {
@@ -67,3 +84,9 @@ h3, h4, p, li{
     padding-top: 15px ;
 }
 
+.skill-block{
+    width: 40%;
+    padding: 17px;
+    display: inline-block;        
+    vertical-align: middle;
+}
