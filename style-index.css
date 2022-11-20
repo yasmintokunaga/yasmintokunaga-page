@@ -1,7 +1,38 @@
-body{
+/* <palette>
+  <color name="Rich Black FOGRA 39" hex="0a100d" r="10" g="16" b="13" />
+  <color name="Laurel Green" hex="b9baa3" r="185" g="186" b="163" />
+  <color name="Timberwolf" hex="d6d5c9" r="214" g="213" b="201" />
+  <color name="Auburn" hex="a22c29" r="162" g="44" b="41" />
+  <color name="Burnt Umber" hex="902923" r="144" g="41" b="35" />
+</palette> */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Ruluko', sans-serif;
 }
 
-h1{
+.header {
+    background-color: rgb(162, 44, 41);
+    color: white;
     font-family: 'Lobster', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+.introduction {
+    background-color: rgb(214, 213, 201);
+    padding: 100px;
+}
+.introduction-right{
+    float: right;
+}
+
+.introduction-left{
+    float: center;
+    max-width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
