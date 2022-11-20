@@ -14,21 +14,26 @@
 body {
     font-family: 'Ruluko', sans-serif;
     line-height: 22px;
+    color: rgb(10,16,13);
 }
-
-.header {
+/* Ajuste de expaçamento entre linhas */
+h3, h4, p, li{
+ margin-bottom: 10px;   
+}
+/* rodapé Yasmin Souza Tokunaga */
+.header { 
     background-color: rgb(162, 44, 41);
     color: white;
     font-family: 'Lobster', cursive;
+    font-size: 20px;
     padding: 50px;
     text-align: center;
 }
-
+/* bloco de introdução, bem vindo ao perfil */
 .introduction {
     background-color: rgb(214, 213, 201);
     padding: 50px 100px 10px 100px;
 }
-
 .introduction-block{    
     max-width: 70%;
     margin-top: 10px;
@@ -37,13 +42,18 @@ body {
     display: inline-block;        
     vertical-align: middle;
 }
-
-
 .image-perfil {
     width: 150px;
     height: 220px;
     object-fit: cover;
     object-position: center;
     border-radius: 70%;
+    border-color: rgb(144, 41, 35);
+    border-style: solid;
+    border-width: 3px;
+}
+.subtitle {
+    text-align: center;
+    font-style: italic;
 }
 
