@@ -8,10 +8,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Ruluko', sans-serif;
+    line-height: 22px;
 }
 
 .header {
@@ -24,15 +26,24 @@ body {
 
 .introduction {
     background-color: rgb(214, 213, 201);
-    padding: 100px;
-}
-.introduction-right{
-    float: right;
+    padding: 50px 100px 10px 100px;
 }
 
-.introduction-left{
-    float: center;
-    max-width: 50%;
-    margin-top: 15px;
+.introduction-block{    
+    max-width: 70%;
+    margin-top: 10px;
     margin-bottom: 15px;
+    padding: 17px;
+    display: inline-block;        
+    vertical-align: middle;
 }
+
+
+.image-perfil {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70%;
+}
+
