@@ -95,3 +95,11 @@ h3, h4, p, li{
 .skill-block h4{
     text-decoration: underline;
 }
+ul {
+    list-style-type: square;
+}
+
+.fa-regular, .fa-solid, .fa-brands{
+color: rgb(144, 41, 35);
+padding-right: 8px;
+}
