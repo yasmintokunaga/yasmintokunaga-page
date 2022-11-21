@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Ruluko', sans-serif;
+    font-size: 18px;
     line-height: 22px;
     color: rgb(10,16,13);
 }
@@ -46,6 +47,15 @@ h3, h4, p, li{
 }
 .button a{
     color: rgb(214, 213, 201);
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a:hover {
+ background-color:  rgb(162, 44, 41);
+}
+a:active{
+    color: black;
 }
 /* bloco de introdução, bem vindo ao perfil */
 .introduction {
@@ -91,7 +101,7 @@ h3, h4, p, li{
     padding: 17px;
     display: inline-block;        
     vertical-align: middle;
-}
+   }
 .skill-block h4{
     text-decoration: underline;
 }
