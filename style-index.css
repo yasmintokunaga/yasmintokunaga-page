@@ -1,99 +1,118 @@
-/* <palette>
-  <color name="Rich Black FOGRA 39" hex="0a100d" r="10" g="16" b="13" />
-  <color name="Laurel Green" hex="b9baa3" r="185" g="186" b="163" />
-  <color name="Timberwolf" hex="d6d5c9" r="214" g="213" b="201" />
-  <color name="Auburn" hex="a22c29" r="162" g="44" b="41" />
-  <color name="Burnt Umber" hex="902923" r="144" g="41" b="35" />
-</palette> */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Ruluko', sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgb(10,16,13);
+  font-family: 'Ruluko', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(10,16,13);
 }
 /* Ajuste de expaçamento entre linhas */
 h3, h4, p, li{
  margin-bottom: 10px;   
 }
-/* rodapé Yasmin Souza Tokunaga */
-.header { 
-    background-color: rgb(162, 44, 41);
-    color: rgb(236, 236, 229);
-    font-family: 'Calligraffitti', cursive;
-    font-size: 35px;
-    padding: 50px;
-    text-align: center;
-    position: sticky;
-    top: 0;
+
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  padding: 20px;  
+
 }
-.menu{
-    background-color: rgb(144, 41, 35);
-    position: sticky;
-    top: 121px;
-    
+
+.name-header{
+    font-family: Courgette, cursive;
+    font-size: 22px;
+    padding-left: 25px;
 }
 
 .button{
-    display: inline-block;
-    padding: 5px 20px;    
-    width: 23%;
+    padding: 0px 10px;    
+    width: 15%;
     text-align: center;
-}
-.button a{
-    color: rgb(214, 213, 201);
-    font-size: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-a:hover {
- background-color:  rgb(162, 44, 41);
-}
-a:active{
     color: black;
+    text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a:active{
+    color: rgb( 196, 90, 179);
 }
 /* bloco de introdução, bem vindo ao perfil */
 .introduction {
-    background-color: rgb(214, 213, 201);
-    padding: 50px 100px 10px 100px;
+    padding: 75px 100px 10px 100px;
+    background-color: rgb(162,102,111);
+    color: white;
 }
 .introduction-block{    
     max-width: 70%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
     padding: 17px;
     display: inline-block;        
-    vertical-align: middle;
+    vertical-align: top;
+}
+.color-text-bold {
+    color: rgb(99,26,134);
+}
+
+.introduction-block h1 {
+    color: rgb(196, 90, 179);
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.introduction-text{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px;
 }
 .image-perfil {
     width: 150px;
     height: 220px;
     object-fit: cover;
     object-position: center;
-    border-radius: 70%;
-    border-color: rgb(144, 41, 35);
+    border-color: white;
     border-style: solid;
-    border-width: 3px;
+    border-width: 5px;
 }
-.subtitle {
-    text-align: center;
-    font-style: italic;
-}
+
 /* corpo da pagina */
-.body-block{
-    background-color: rgb(236, 236, 229);
-    padding-right: 10%;
-    padding-left: 5%;
+.margin{
+margin-left: 100px;
+max-width: 72%;
+margin-top: 40px;
+margin-bottom: 30px;
+padding: 18px;
 }
-.body-block h3{
-    color: rgb(144, 41, 35);
+.title{
+    color: rgb(99,26,134);
     padding-top: 15px ;
+    padding-bottom: 15px;
     font-family: 'Courgette', 'cursive';
+}
+
+.sobre-mim {
+    border: 2px solid rgb( 244,147,144); 
+    /* background-color: rgb( 196, 90, 179); */
+    padding: 18px;
+}
+
+.historico {
+    background-color: rgb(350, 349, 220);
+    line-height: 30px;
 }
 
 .skill-block{
@@ -110,6 +129,6 @@ ul {
 }
 
 .fa-regular, .fa-solid, .fa-brands{
-color: rgb(144, 41, 35);
+color: rgb(196, 90, 179);
 padding-right: 8px;
 }
