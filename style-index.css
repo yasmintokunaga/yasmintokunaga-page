@@ -22,7 +22,7 @@ nav {
   display: flex;
   width: 100%;
   padding: 20px;  
-
+  border-bottom: 1px solid rgb(162,102,111);
 }
 
 .name-header{
