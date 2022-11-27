@@ -1,38 +1,42 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  color: rgb(10,16,13);
+    font-family: 'Ruluko', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(10, 16, 13);
 }
+
 /* Ajuste de expaçamento entre linhas */
-h3, h4, p, li{
- margin-bottom: 10px;   
+h3,
+h4,
+p,
+li {
+    margin-bottom: 10px;
 }
 
 nav {
-  background-color: white;
-  position: fixed;
-  top: 0px;
-  display: flex;
-  width: 100%;
-  padding: 20px;  
-  border-bottom: 1px solid rgb(162,102,111);
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(162, 102, 111);
 }
 
-.name-header{
+.name-header {
     font-family: Courgette, cursive;
     font-size: 22px;
     padding-left: 25px;
 }
 
-.button{
-    padding: 0px 10px;    
+.button {
+    padding: 0px 10px;
     width: 15%;
     text-align: center;
     color: black;
@@ -40,28 +44,32 @@ nav {
 }
 
 a:hover {
- text-decoration: underline;
+    text-decoration: underline;
 }
 
-a:active{
-    color: rgb( 196, 90, 179);
+a:active {
+    color: rgb(196, 90, 179);
 }
+
 /* bloco de introdução, bem vindo ao perfil */
 .introduction {
     padding: 75px 100px 10px 100px;
-    background-color: rgb(162,102,111);
+    background-color: rgb(162, 102, 111);
     color: white;
 }
-.introduction-block{    
+
+.introduction-block {
     max-width: 70%;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 17px;
-    display: inline-block;        
+    display: inline-block;
     vertical-align: top;
 }
+
 .color-text-bold {
-    color: rgb(99,26,134);
+    color: rgb(99, 26, 134);
+    font-size: 19px;
 }
 
 .introduction-block h1 {
@@ -72,13 +80,15 @@ a:active{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.introduction-text{
+
+.introduction-text {
     background-color: white;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 25px;
     padding: 10px;
 }
+
 .image-perfil {
     width: 150px;
     height: 220px;
@@ -90,22 +100,23 @@ a:active{
 }
 
 /* corpo da pagina */
-.margin{
-margin-left: 100px;
-max-width: 72%;
-margin-top: 40px;
-margin-bottom: 30px;
-padding: 18px;
+.margin {
+    margin-left: 100px;
+    max-width: 72%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 18px;
 }
-.title{
-    color: rgb(99,26,134);
-    padding-top: 15px ;
+
+.title {
+    color: rgb(99, 26, 134);
+    padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Courgette', 'cursive';
 }
 
 .sobre-mim {
-    border: 2px solid rgb( 244,147,144); 
+    border: 2px solid rgb(244, 147, 144);
     /* background-color: rgb( 196, 90, 179); */
     padding: 18px;
 }
@@ -115,20 +126,33 @@ padding: 18px;
     line-height: 30px;
 }
 
-.skill-block{
-    width: 40%;
-    padding: 17px;
-    display: inline-block;        
-    vertical-align: middle;
-   }
-.skill-block h4{
-    text-decoration: underline;
-}
-ul {
-    list-style-type: square;
+.habilidades {
+    border: 5px solid #FCF5C7;
+
 }
 
-.fa-regular, .fa-solid, .fa-brands{
-color: rgb(196, 90, 179);
-padding-right: 8px;
+.skill-block {
+    width: 40%;
+    padding: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.skill-block h4 {
+    text-decoration: underline;
+}
+
+.icon {
+    color: rgb(196, 90, 179);
+    padding-right: 8px;
+}
+
+.icon-check {
+    color: rgb(162, 102, 111);
+    padding-right: 8px;
+}
+
+.icon-skill {
+    /* color: rgb(196, 90, 179); */
+    padding-right: 8px;
 }
