@@ -119,6 +119,7 @@ a:active {
     border: 2px solid rgb(244, 147, 144);
     /* background-color: rgb( 196, 90, 179); */
     padding: 18px;
+    text-align: justify;
 }
 
 .historico {
