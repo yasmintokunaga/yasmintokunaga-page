@@ -126,6 +126,15 @@ a:active {
 .historico {
     background-color: rgb(350, 349, 220);
     line-height: 30px;
+    
+}
+
+.imagem-historico{
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
 }
 
 .habilidades {
