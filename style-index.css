@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Ruluko', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   color: rgb(10, 16, 13);
 }
@@ -26,7 +26,8 @@ nav {
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid rgb(162, 102, 111);
+  border-bottom: 1px solid rgb(220,220,220);
+  /* text-transform: uppercase; */
 }
 
 .name-header {
@@ -45,6 +46,7 @@ nav {
 
 a:hover {
   text-decoration: underline;
+  font-size: 18px;
 }
 
 a:active {
@@ -52,19 +54,57 @@ a:active {
 }
 
 /* bloco de introdução, bem vindo ao perfil */
-.introduction {
-    padding: 75px 100px 10px 100px;
-    background-color: rgb(162, 102, 111);
+.introduction {  
+    margin-top: 63px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+   padding-left: 15%;
+   padding-right: 15%;
+    /* background-color: rgb(162, 102, 111); */
+    background: linear-gradient(to bottom, Pink , PeachPuff);
     color: white;
+    text-align: center;
 }
 
 .introduction-block {
-    max-width: 70%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 17px;
+    /* max-width: 70%; */
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    /* padding: 4%; */
     display: inline-block;
     vertical-align: top;
+    box-sizing: border-box;
+}
+
+.image-perfil {
+    width: 150px;
+    height: 235px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.introduction-block h1 {
+    color: rgb(196, 90, 179);
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.introduction-text {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    margin-top: 25px;
+    padding: 10px 30px 10px 30px;
 }
 
 .color-text-bold {
@@ -72,36 +112,10 @@ a:active {
     font-size: 19px;
 }
 
-.introduction-block h1 {
-    color: rgb(196, 90, 179);
-    background-color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.introduction-text {
-    background-color: white;
-    color: black;
-    font-size: 18px;
-    margin-top: 25px;
-    padding: 10px;
-}
-
-.image-perfil {
-    width: 150px;
-    height: 220px;
-    object-fit: cover;
-    object-position: center;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
-}
-
 /* corpo da pagina */
 .margin {
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 72%;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -117,8 +131,7 @@ a:active {
 
 .sobre-mim {
     border: 2px solid rgb(244, 147, 144);
-    /* background-color: rgb( 196, 90, 179); */
-    /* margin-top: 150px; */
+    border-radius: 10px;
     padding: 18px;
     text-align: justify;
 }
@@ -139,7 +152,7 @@ a:active {
 
 .habilidades {
     border: 5px solid #FCF5C7;
-
+    border-radius: 10px;
 }
 
 .skill-block {
@@ -152,26 +165,8 @@ a:active {
 .skill-block h3 {
     text-decoration: underline;
 }
-
-footer {
-    padding: 20px;
-    margin-left: 100px;
-}
-
-footer p {
-    font-size: 16px;
-}
-
-.icons-link {
-    font-size: 25px;
-}
-
-.icons-link :hover {
-    color: rgb(99, 26, 134);
-}
-
-.icon {
-    color: rgb(196, 90, 179);
+.icon-skill {
+    /* color: rgb(196, 90, 179); */
     padding-right: 8px;
 }
 
@@ -180,7 +175,25 @@ footer p {
     padding-right: 8px;
 }
 
-.icon-skill {
-    /* color: rgb(196, 90, 179); */
+footer {
+    padding: 20px;
+    margin-left: 15%;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+.icon {
+    color: rgb(196, 90, 179);
     padding-right: 8px;
+}
+
+.icons-link {
+    font-size: 25px;
+}
+
+.icons-link :hover {
+    color: rgb(99, 26, 134);
+    font-size: 30px;;
 }
