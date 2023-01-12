@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Perfil | Yasmin Souza Tokunaga</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,36 +23,39 @@
 <body>
 
     <header>
+        <div class="name-header"><i class="fa-solid fa-code icon"></i><strong>Yasmin_Code</strong></div>
         <nav>
-            <div class="name-header"><i class="fa-solid fa-code icon"></i><strong>Yasmin_Code</strong></div>
-            <a href="#início" class="button">Início</a>
-            <a href="#sobre-mim" class="button">Sobre mim</a>
-            <a href="#historico" class="button">Histórico</a>
-            <a href="#habilidades" class="button">Habilidades</a>
-            <a href="#contato" class="button">Contato</a>
+            <ul id="lista-nav">
+                <li><a href="#início" class="item-nav">Início</a></li>
+                <li><a href="#sobre-mim" class="item-nav">Sobre mim</a></li>
+                <li><a href="#historico" class="item-nav">Histórico</a></li>
+                <li><a href="#habilidades" class="item-nav">Habilidades</a></li>
+                <li><a href="#contato" class="item-nav">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <div class="introduction" id="início">
-            <section class="introduction-block">
+            <section class="introduction-image">
                 <img src="./images/foto-perfil.jpg" alt="foto perfil" class="image-perfil">
             </section>
-            <section class="introduction-block">
-                <h1>Olá, bem vindo(a) ao meu perfil</h1>
-                <div class="introduction-text">
-                    <p>Eu sou a <strong class="color-text-bold">Yasmin</strong>, tenho 27 anos, sou brasileira e resido
-                        em Guarulhos-SP.</p>
-                    <p>Sou formada em <strong class="color-text-bold" id="sobre-mim"> Engenharia de Produção
-                            Mecânica</strong> pela
-                        UNESP. </p>
-                    <p>E, estou em transição de carreira para me tornar uma <strong class="color-text-bold">
-                            Desenvolvedora Web</strong>.</p>
-                </div>
+            <section class="introduction-text">
+                 <ul>
+                    <li><em>Olá, meu nome é </em></li>
+                    <li><strong><h1>Yasmin Tokunaga</h1></strong></li><br>
+                    <li><em>Estudante de </em></li>
+                    <li><h2>Desenvolvimento Web</h2></li><br>
+                    <hr>
+                    <li>Sou brasileira e resido em Guarulhos-SP</li>
+                    <li>Formada em Engenharia de Produção Mecânica</li>
+                    
+                </ul>
+
             </section>
         </div>
 
-        <div class="sobre-mim margin">
+        <!-- <div class="sobre-mim margin">
 
             <h2 class="title">Sobre mim</h2>
             <p>Meu nome é Yasmin, tenho 27 anos e sou formada em Engenharia de Produção Mecânica pela UNESP. </p>
@@ -129,7 +129,7 @@
                 <p><i class="fa-regular fa-circle-check icon-check"></i>Gosto de aprender coisas novas</p>
 
             </div>
-        </div>
+        </div> -->
 
         <hr>
     </main>
