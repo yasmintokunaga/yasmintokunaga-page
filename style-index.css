@@ -1,84 +1,92 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Dosis, sans-serif;
-  font-size: 15px;
-  line-height: 22px;
+    font-family: Dosis, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    color: rgb(74, 71, 71);
 }
 
 header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-bottom: 1px solid rgb(220,220,220);
-  background-color: black;
-  color: white;
-  padding: 20px;
-  width: 100%;
-  position: fixed;
-  top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    background-color: white;
+    color: rgb(37, 35, 35);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 #lista-nav {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 60px;
 }
 
 
 .name-header {
-  font-family: Courgette, cursive;
-  font-size: 18px;
-  padding-left: 25px;
+    font-family: Courgette, cursive;
+    padding-left: 25px;
+    font-size: 22px;
 }
 
 .item-nav {
-  padding: 0px 20px;
-  color: white;
-  text-decoration: none;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+    opacity: 0.8;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover,
+.name-header:hover {
+    opacity: 1;
 }
 
 a:active {
-  color: rgb(196, 90, 179);
+    color: rgb(196, 90, 179);
 }
 
 /* bloco de introdução, bem vindo ao perfil */
 
 main {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .introduction {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(214, 81, 103), white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.introduction-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  
-    margin-top: 63px;
-    padding-bottom: 10%;
-   /* padding-left: 28%;
-   padding-right: 28%; */
-    background: linear-gradient(to bottom, black, rgb(247, 115, 137));
-    
+    flex-wrap: wrap;
+    height: 95%;
 }
 
 .image-perfil {
-    width: 150px;
-    height: 235px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    object-position: center;
-    border: 5px solid white;
-    border-radius: 5px;
+    object-position: bottom -220px right 0;
+    border-top: 5px solid rgb(37, 35, 35);
+    border-bottom: 5px solid rgb(37, 35, 35);
+    border-right: 10px solid rgb(37, 35, 35);
+    border-radius: 70%;
     margin-right: 60px;
-    display: inline-block;
 }
 
 .introduction-text {
@@ -86,12 +94,9 @@ main {
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
-    color: white;
-    min-width: 214px;
     padding: 10px;
-    width: 300px;
-    min-width: 300px;
-    line-height: 28px;
+    width: 420px;
+    line-height: 35px;
 }
 
 .introduction-text ul {
@@ -99,7 +104,23 @@ main {
 }
 
 .introduction-text h1 {
+    font-size: 60px;
+    margin-top: 12px;
+}
+
+.introduction-btn {
+    align-self: center;
+    height: 5%;
+}
+
+.fa-chevron-down {
     font-size: 40px;
+    color: rgb(74, 71, 71);
+}
+
+.fa-chevron-down:hover {
+    font-size: 45px;
+    opacity: 0.8;
 }
 
 /* corpo da pagina */
@@ -129,10 +150,10 @@ main {
 .historico {
     background-color: rgb(350, 349, 220);
     line-height: 30px;
-    
+
 }
 
-.imagem-historico{
+.imagem-historico {
     width: 150px;
     height: 250px;
     object-fit: cover;
@@ -155,6 +176,7 @@ main {
 .skill-block h3 {
     text-decoration: underline;
 }
+
 .icon-skill {
     /* color: rgb(196, 90, 179); */
     padding-right: 8px;
@@ -185,5 +207,6 @@ footer p {
 
 .icons-link :hover {
     color: rgb(99, 26, 134);
-    font-size: 30px;;
+    font-size: 30px;
+    ;
 }

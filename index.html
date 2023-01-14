@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Perfil | Yasmin Souza Tokunaga</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +19,8 @@
     <script src="https://kit.fontawesome.com/6ee4ae182b.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="./style-index-tablet.css">
+    <link rel="stylesheet" href="./style-index-mobile.css">
 
 </head>
 
@@ -37,22 +41,30 @@
 
     <main>
         <div class="introduction" id="início">
-            <section class="introduction-image">
-                <img src="./images/foto-perfil.jpg" alt="foto perfil" class="image-perfil">
-            </section>
-            <section class="introduction-text">
-                 <ul>
-                    <li><em>Olá, meu nome é </em></li>
-                    <li><strong><h1>Yasmin Tokunaga</h1></strong></li><br>
-                    <li><em>Estudante de </em></li>
-                    <li><h2>Desenvolvimento Web</h2></li><br>
-                    <hr>
-                    <li>Sou brasileira e resido em Guarulhos-SP</li>
-                    <li>Formada em Engenharia de Produção Mecânica</li>
-                    
-                </ul>
+            <div class="introduction-block">
+                <section class="introduction-image">
+                    <img src="./images/foto-perfil.jpg" alt="foto perfil" class="image-perfil">
+                </section>
+                <section class="introduction-text">
+                    <ul>
+                        <li><em>Olá, meu nome é </em></li>
+                        <li><strong>
+                                <h1>Yasmin Tokunaga</h1>
+                            </strong></li><br>
+                        <li><em>Estudante de </em></li>
+                        <li>
+                            <h2>Desenvolvimento Web</h2>
+                        </li><br>
+                        <hr>
+                        <li>Sou brasileira e resido em Guarulhos-SP</li>
+                        <li>Formada em Engenharia de Produção Mecânica</li>
 
-            </section>
+                    </ul>
+                </section>
+            </div>
+            <div class="introduction-btn">
+                <a href=""><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
         </div>
 
         <!-- <div class="sobre-mim margin">
@@ -137,8 +149,10 @@
         <h3 id="contato">Contato</h3>
         <p><i class="fa-regular fa-at icon"></i>email: yasmintkng@gmail.com</p>
         <p><i class="fa-solid fa-phone icon"></i>telefone: +55 (11) 93005-9995</p>
-        <div class="icons-link"><a href="https://wa.me/5511930059995" target="_blank"><i class="fa-brands fa-whatsapp icon"></i></a>
-        <a href="https://linkedin.com/in/yasmin-souza-tokunaga" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+        <div class="icons-link"><a href="https://wa.me/5511930059995" target="_blank"><i
+                    class="fa-brands fa-whatsapp icon"></i></a>
+            <a href="https://linkedin.com/in/yasmin-souza-tokunaga" target="_blank"><i
+                    class="fa-brands fa-linkedin icon"></i></a>
         </div>
     </footer>
 </body>

@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+  header {
+    padding: 15px 8px;
+  }
+
+  #lista-nav:nth-child(1) {
+    margin-left: 10px;
+
+  }
+
+  .name-header {
+    padding-left: 0;
+  }
+
+  .introduction-block {
+    align-content: center;
+  }
+
+  .image-perfil {
+    margin-bottom: 10%;
+  }
+}
