@@ -1,0 +1,49 @@
+@media screen and (max-height: 900px) {
+  :root {
+    --pink: rgb(255,169,249);
+    --yellow: rgb(255,247,173);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home {
+    background-image: linear-gradient(to bottom, var(--pink) , var(--yellow));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .buttons-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-bottom: 8px;
+  }
+
+  .icons {
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  i {
+    font-size: 50px;
+  }
+}

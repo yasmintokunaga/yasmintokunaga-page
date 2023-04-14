@@ -6,8 +6,8 @@
 
 body {
     font-family: Dosis, sans-serif;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 27px;
     color: rgb(74, 71, 71);
 }
 
@@ -59,11 +59,13 @@ a:active {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .introduction {
     height: 100vh;
-    background: linear-gradient(to bottom, rgb(214, 81, 103), white);
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(225, 161, 161), white);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -82,9 +84,10 @@ main {
     height: 300px;
     object-fit: cover;
     object-position: bottom -220px right 0;
-    border-top: 5px solid rgb(37, 35, 35);
-    border-bottom: 5px solid rgb(37, 35, 35);
-    border-right: 10px solid rgb(37, 35, 35);
+    border-top: 5px solid rgb(80, 76, 76);
+    border-bottom: 5px solid rgb(80, 76, 76);
+    border-right: 10px solid rgb(80, 76, 76);
+    box-shadow: 9px 3px 5px rgb(135, 129, 129);
     border-radius: 70%;
     margin-right: 60px;
 }
@@ -124,13 +127,12 @@ main {
 }
 
 /* corpo da pagina */
-.margin {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 72%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 18px;
+.container {
+    border: 1px solid red;
+    width: 70%;
+    height: 100vh;
+    
+    
 }
 
 .title {

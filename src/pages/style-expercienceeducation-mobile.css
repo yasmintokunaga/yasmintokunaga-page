@@ -1,0 +1,15 @@
+@media screen and (max-height: 900px) {
+  :root {
+    --pink: rgb(255,169,249);
+    --yellow: rgb(255,247,173);
+  }
+  
+  .pageExperienceEducation {
+    background-image: linear-gradient(to bottom, var(--pink) , var(--yellow));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+}
