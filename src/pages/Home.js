@@ -1,6 +1,6 @@
 import React from 'react';
 import fotoPerfil from '../img/foto-perfil-2.jpg'
-import './style-home-mobile.css';
+import './style-home.css';
 
 class Home extends React.Component {
   state = {

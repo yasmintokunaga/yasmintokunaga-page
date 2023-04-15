@@ -1,0 +1,58 @@
+@media screen and (max-height: 900px) {
+  :root {
+    --pink: rgb(255,169,249);
+    --yellow: rgb(255,247,173);
+  }
+  
+  .pageSkills {
+    background-image: linear-gradient(to bottom, var(--pink) , var(--yellow));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .skills-card {
+    margin-top: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skills-card-content {
+    width: 210px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgba( 255, 255, 255, 0.9);
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .icon-skills {
+    width: 100px;
+    font-size: 80px;
+  }
+
+  .fa-html5 {
+    color: rgb(255,87,34);
+  }
+
+  .fa-css3-alt {
+    color: rgb(32,145,235);
+  }
+
+  .fa-square-js {
+    color: rgb(233,202,50);
+  }
+
+  .fa-react {
+    color: rgb(97,219,251);
+  }
+
+  .fa-table {
+    color: rgb(33,115,70);
+  }
+}

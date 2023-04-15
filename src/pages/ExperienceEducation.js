@@ -1,5 +1,5 @@
 import React from 'react';
-import './style-expercienceeducation-mobile.css';
+import './style-expercienceeducation.css';
 
 class ExperienceEducation extends React.Component {
   state = {
