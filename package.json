@@ -1,6 +1,6 @@
 {
-  "homepage": "http://yasmintokunaga.github.io",
-  "name": "yasmintokunaga.github.io",
+  "homepage": "http://yasmintokunaga.github.io/yasmintokunaga-page",
+  "name": "yasmintokunaga-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
