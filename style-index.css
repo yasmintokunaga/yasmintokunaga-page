@@ -1,125 +1,138 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  color: rgb(10, 16, 13);
-}
-
-/* Ajuste de expaçamento entre linhas */
-h2,
-h3,
-p,
-li {
-  margin-bottom: 10px;
-}
-
-nav {
-  background-color: white;
-  position: fixed;
-  top: 0px;
-  display: flex;
-  width: 100%;
-  padding: 20px;
-  border-bottom: 1px solid rgb(220,220,220);
-  /* text-transform: uppercase; */
-}
-
-.name-header {
-  font-family: Courgette, cursive;
-  font-size: 22px;
-  padding-left: 25px;
-}
-
-.button {
-  padding: 0px 10px;
-  width: 15%;
-  text-align: center;
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  font-size: 18px;
-}
-
-a:active {
-  color: rgb(196, 90, 179);
-}
-
-/* bloco de introdução, bem vindo ao perfil */
-.introduction {  
-    margin-top: 63px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-   padding-left: 15%;
-   padding-right: 15%;
-    /* background-color: rgb(162, 102, 111); */
-    background: linear-gradient(to bottom, Pink , PeachPuff);
-    color: white;
-    text-align: center;
-}
-
-.introduction-block {
-    /* max-width: 70%; */
-    /* margin-top: 15px;
-    margin-bottom: 15px; */
-    /* padding: 4%; */
-    display: inline-block;
-    vertical-align: top;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.image-perfil {
-    width: 150px;
-    height: 235px;
-    object-fit: cover;
-    object-position: center;
-    border: 5px solid white;
-    border-radius: 5px;
-    margin-right: 100px;
-    display: inline-block;
+body {
+    font-family: Dosis, sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgb(74, 71, 71);
 }
 
-.introduction-block h1 {
-    color: rgb(196, 90, 179);
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
     background-color: white;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 30px;
-    line-height: normal;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    color: rgb(37, 35, 35);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#lista-nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+
+.name-header {
+    font-family: Courgette, cursive;
+    padding-left: 25px;
+    font-size: 22px;
+}
+
+.item-nav {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+    opacity: 0.8;
+}
+
+a:hover,
+.name-header:hover {
+    opacity: 1;
+}
+
+a:active {
+    color: rgb(196, 90, 179);
+}
+
+/* bloco de introdução, bem vindo ao perfil */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(225, 161, 161), white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.introduction-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 95%;
+}
+
+.image-perfil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom -220px right 0;
+    border-top: 5px solid rgb(80, 76, 76);
+    border-bottom: 5px solid rgb(80, 76, 76);
+    border-right: 10px solid rgb(80, 76, 76);
+    box-shadow: 9px 3px 5px rgb(135, 129, 129);
+    border-radius: 70%;
+    margin-right: 60px;
 }
 
 .introduction-text {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
-    color: black;
-    font-size: 17px;
-    margin-top: 25px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px;
+    width: 420px;
+    line-height: 35px;
 }
 
-.color-text-bold {
-    color: rgb(99, 26, 134);
-    font-size: 19px;
+.introduction-text ul {
+    list-style-type: none;
+}
+
+.introduction-text h1 {
+    font-size: 60px;
+    margin-top: 12px;
+}
+
+.introduction-btn {
+    align-self: center;
+    height: 5%;
+}
+
+.fa-chevron-down {
+    font-size: 40px;
+    color: rgb(74, 71, 71);
+}
+
+.fa-chevron-down:hover {
+    font-size: 45px;
+    opacity: 0.8;
 }
 
 /* corpo da pagina */
-.margin {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 72%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 18px;
+.container {
+    border: 1px solid red;
+    width: 70%;
+    height: 100vh;
+    
+    
 }
 
 .title {
@@ -139,10 +152,10 @@ a:active {
 .historico {
     background-color: rgb(350, 349, 220);
     line-height: 30px;
-    
+
 }
 
-.imagem-historico{
+.imagem-historico {
     width: 150px;
     height: 250px;
     object-fit: cover;
@@ -165,6 +178,7 @@ a:active {
 .skill-block h3 {
     text-decoration: underline;
 }
+
 .icon-skill {
     /* color: rgb(196, 90, 179); */
     padding-right: 8px;
@@ -195,5 +209,6 @@ footer p {
 
 .icons-link :hover {
     color: rgb(99, 26, 134);
-    font-size: 30px;;
+    font-size: 30px;
+    ;
 }
