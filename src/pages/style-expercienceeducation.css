@@ -1,15 +1,66 @@
-@media screen and (max-height: 900px) {
-  :root {
-    --pink: rgb(255,169,249);
-    --yellow: rgb(255,247,173);
+:root {
+  --color-top: rgb(158, 118, 143);
+  --color-bottom: rgb(219, 219, 217);
+}
+
+.pageExperienceEducation {
+  background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+
+.showBlock {
+  display: none;
+}
+
+@media screen and (min-width: 765px) {
+  .pageExperienceEducation {
+    justify-content: start;
   }
   
-  .pageExperienceEducation {
-    background-image: linear-gradient(to bottom, var(--pink) , var(--yellow));
-    min-height: 100vh;
+  .pageExperienceEducation .card {
+    width: 300px;
+  }
+
+  .pageExperienceEducation .card .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 0 20px;
   }
+
+  .container-content-education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .container-content-education img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 8px auto;
+  }
+
+  .container-content-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .container-content-experience img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 8px auto;
+  }
+
+  .showBlock {
+    display: block;
+  }
+
 }

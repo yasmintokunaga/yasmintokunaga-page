@@ -1,49 +1,143 @@
-@media screen and (max-height: 900px) {
-  :root {
-    --pink: rgb(255,169,249);
-    --yellow: rgb(255,247,173);
-  }
+:root {
+  --color-top: rgb(158, 118, 143);
+  --color-bottom: rgb(219, 219, 217);
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 50%;
+}
+
+.rigth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 40%;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 40% 40%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.buttons-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-home {
+  margin-bottom: 8px;
+}
+
+.icons {
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
+}
+
+i {
+  font-size: 50px;
+}
+
+a {
+  color: #212529;
+}
+
+i:hover {
+  color: #424649;
+}
+
+.about-me {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+
   .home {
-    background-image: linear-gradient(to bottom, var(--pink) , var(--yellow));
+    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;  
+    /* min-height: 50vh; */
+  }
+  
+  .rigth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 38vw;
+    height: 450px;
   }
 
   img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    object-position: 30% 30%;
+    object-position: 40% 40%;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto;
+  }
+
+  .about-me {
+    display: block;
+    /* text-align: center; */
+  }
+
+  article {
+    line-height: 25px;
+  }
+
+  .about-me h1 {
+    text-align: center;
   }
 
   .buttons-home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
   }
 
-  button {
-    margin-bottom: 8px;
-  }
-
-  .icons {
-    width: 220px;
-    display: flex;
-    justify-content: space-around;
+  .button-home {
+    margin: 5px;
   }
 
   i {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  .icons {
+    width: 150px;
   }
 }
