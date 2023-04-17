@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/yasmintokunaga.github.io/static/css/main.424bb0d9.css",
-    "main.js": "/yasmintokunaga.github.io/static/js/main.9bec5373.js",
-    "static/js/787.109919cc.chunk.js": "/yasmintokunaga.github.io/static/js/787.109919cc.chunk.js",
-    "static/media/foto-perfil-3.jpg": "/yasmintokunaga.github.io/static/media/foto-perfil-3.efa0e9642905176e28b2.jpg",
-    "static/media/super-tryunfo.png": "/yasmintokunaga.github.io/static/media/super-tryunfo.a282373d4f2ca8f6a61b.png",
-    "static/media/online-store.png": "/yasmintokunaga.github.io/static/media/online-store.018469c561dcaac1fe9d.png",
-    "static/media/trybetunes.png": "/yasmintokunaga.github.io/static/media/trybetunes.58b4357cc2a09a374735.png",
-    "static/media/logo-extrafarma.png": "/yasmintokunaga.github.io/static/media/logo-extrafarma.643a8038dd90a4ea6489.png",
-    "static/media/CV-YasminSouzaTokunaga.pdf": "/yasmintokunaga.github.io/static/media/CV-YasminSouzaTokunaga.bebf0c351592f119560b.pdf",
-    "static/media/carteira-trybe-wallet.png": "/yasmintokunaga.github.io/static/media/carteira-trybe-wallet.0d41a67898ac8bb7567f.png",
-    "static/media/unesp-logo.png": "/yasmintokunaga.github.io/static/media/unesp-logo.25f77b5dbac6abe0b6f5.png",
-    "static/media/logo-tenda.png": "/yasmintokunaga.github.io/static/media/logo-tenda.bf35db7c5e1c95d54454.png",
-    "index.html": "/yasmintokunaga.github.io/index.html",
-    "main.424bb0d9.css.map": "/yasmintokunaga.github.io/static/css/main.424bb0d9.css.map",
-    "main.9bec5373.js.map": "/yasmintokunaga.github.io/static/js/main.9bec5373.js.map",
-    "787.109919cc.chunk.js.map": "/yasmintokunaga.github.io/static/js/787.109919cc.chunk.js.map"
+    "main.css": "/static/css/main.424bb0d9.css",
+    "main.js": "/static/js/main.b8be4414.js",
+    "static/js/787.109919cc.chunk.js": "/static/js/787.109919cc.chunk.js",
+    "static/media/foto-perfil-3.jpg": "/static/media/foto-perfil-3.efa0e9642905176e28b2.jpg",
+    "static/media/super-tryunfo.png": "/static/media/super-tryunfo.a282373d4f2ca8f6a61b.png",
+    "static/media/online-store.png": "/static/media/online-store.018469c561dcaac1fe9d.png",
+    "static/media/trybetunes.png": "/static/media/trybetunes.58b4357cc2a09a374735.png",
+    "static/media/logo-extrafarma.png": "/static/media/logo-extrafarma.643a8038dd90a4ea6489.png",
+    "static/media/CV-YasminSouzaTokunaga.pdf": "/static/media/CV-YasminSouzaTokunaga.bebf0c351592f119560b.pdf",
+    "static/media/carteira-trybe-wallet.png": "/static/media/carteira-trybe-wallet.0d41a67898ac8bb7567f.png",
+    "static/media/unesp-logo.png": "/static/media/unesp-logo.25f77b5dbac6abe0b6f5.png",
+    "static/media/logo-tenda.png": "/static/media/logo-tenda.bf35db7c5e1c95d54454.png",
+    "index.html": "/index.html",
+    "main.424bb0d9.css.map": "/static/css/main.424bb0d9.css.map",
+    "main.b8be4414.js.map": "/static/js/main.b8be4414.js.map",
+    "787.109919cc.chunk.js.map": "/static/js/787.109919cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.424bb0d9.css",
-    "static/js/main.9bec5373.js"
+    "static/js/main.b8be4414.js"
   ]
 }
