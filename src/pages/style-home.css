@@ -1,6 +1,8 @@
 :root {
   --color-top: rgba(158, 118, 143, 1);
   --color-bottom: rgba(219, 219, 217, 1);
+  --color-dark: rgba(31, 38, 49, 1);
+  --color-darker: rgba(26, 27, 28, 0);
 }
 
 * {
@@ -148,4 +150,15 @@ i:hover {
   .icons {
     width: 150px;
   }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+  }
+  
+  .home {
+    background-image: linear-gradient(to bottom, var(--color-darker) , var(--color-dark));
+  }
+  
 }

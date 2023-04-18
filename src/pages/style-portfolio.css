@@ -30,6 +30,13 @@
 }
 
 @media screen and (min-width: 765px) {
+  .pagePortfolio {
+    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+
   .container-carousel {
     width: 60%;
     margin: 30px auto;

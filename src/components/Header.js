@@ -30,6 +30,11 @@ class Header extends React.Component {
                     </Link>
                   </li>
                   <li className="nav-item">
+                    <Link to ="/expercienceeducation" class="nav-link">
+                      Formação e Experiência
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <Link to ="/skills" class="nav-link">
                       Habilidades técnicas
                     </Link>

@@ -86,23 +86,22 @@ class Skills extends React.Component {
             </div>
           ))}
         </main>
-        <h6 className="mt-2">Mais detalhes em:</h6>
-        <p>
+        <p className="mt-2">Mais detalhes em:
+          {' '}
           <a 
             href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
             target="_blank"
             rel="noopener noreferrer"
           >
-          linkedin
+            linkedin
           </a>
-          {' / '}
-      
+          {' / '}      
           <a
             className=""
             href={ filePDF }
             download="CV-YasminSouzaTokunaga"
           >
-        Currículo completo
+            Currículo completo
           </a>
         </p>
       </section>

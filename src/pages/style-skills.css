@@ -23,13 +23,13 @@
   display: flex;
   align-items: center;
   background-color: rgba( 255, 255, 255, 0.9);
-  padding: 8px;
+  padding: 3%;
   border-radius: 5px;
 }
 
 .icon-skills {
   width: 100px;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .fa-html5 {
@@ -60,15 +60,15 @@
   .pageSkills {
     background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
     display: flex;
-    padding: 60px 20px;
+    padding: 100px 20px;
   }
 
   .skills-card {
-    margin: 20px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
+    padding: 10px 0 80px 0;
   }
 
   .skills-card-content {

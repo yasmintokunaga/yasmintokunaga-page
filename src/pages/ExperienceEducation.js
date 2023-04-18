@@ -85,68 +85,66 @@ class ExperienceEducation extends React.Component {
   render() {
     const { education, experience } = this.state;
     return(
-      <section className="pageExperienceEducation">
+      <>
         <Header />
-        <h2>Formação</h2>
-        <section className="container-content-education">
-          { education.map(({ title, school, year, logo }) => (
-            <div
-              className="card m-3"
-              key={ school }
-            >
-              <img src={ logo } className="showBlock" alt={ title }/>
-              <div className="card-body">
-                <h6 className="card-title">
-                  { title }
-                </h6>
-                <p className="card-text">
-                  { `${school} | ${year}` }
-                </p>
+        <section className="pageExperienceEducation">
+          <h2>Formação</h2>
+          <section className="container-content-education">
+            { education.map(({ title, school, year, logo }) => (
+              <div
+                className="card m-3"
+                key={ school }
+              >
+                <img src={ logo } className="showBlock" alt={ title }/>
+                <div className="card-body">
+                  <h6 className="card-title">
+                    { title }
+                  </h6>
+                  <p className="card-text">
+                    { `${school} | ${year}` }
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </section>
+            ))}
+          </section>
 
-        <h2 className="mt-4">Experiências</h2>
-        <section className="container-content-experience">
-          { experience.map(({ post, company, year, logo, key }) => (
-            <div className="card m-3" key={ key }>
-              <img src={ logo } className="showBlock" alt={ company }/>
-              <div className="card-body">
-                <h6 className="card-title">
-                  { post }
-                </h6>
-                <p className="card-text">
-                  { `${company} | ${year}` }
-                </p>
+          <h2 className="mt-4">Experiências</h2>
+          <section className="container-content-experience">
+            { experience.map(({ post, company, year, logo, key }) => (
+              <div className="card m-3" key={ key }>
+                <img src={ logo } className="showBlock" alt={ company }/>
+                <div className="card-body">
+                  <h6 className="card-title">
+                    { post }
+                  </h6>
+                  <p className="card-text">
+                    { `${company} | ${year}` }
+                  </p>
+                </div>
               </div>
-              {/* <button className="btn btn-dark showBlock">
-                <i class="fa-regular fa-square-plus  fs-6 text"></i>
-                {' '}
-                Detalhes
-              </button> */}
-            </div>
-          ))}
+            ))}
+          </section>
+          <p className="mt-3">
+            Mais detalhes em:
+            {' '}
+            <a 
+              href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
+              target="_blank" rel="noreferrer"
+            >
+              linkedin
+            </a>
+            {' / '}
+          
+            <a
+              className=""
+              href={ filePDF }
+              download="CV-YasminSouzaTokunaga"
+            >
+            Currículo completo
+            </a>
+          </p>
         </section>
-        <h6 className="mt-2">Mais detalhes em:</h6>
-        <p>
-          <a 
-            href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
-            target="_blank" rel="noreferrer"
-          >
-            linkedin
-          </a>
-          {' / '}
-        
-          <a
-            className=""
-            href={ filePDF }
-            download="CV-YasminSouzaTokunaga"
-          >
-          Currículo completo
-          </a>
-        </p>
-      </section>
+      </>
     );
   }
 }
