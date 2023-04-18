@@ -159,6 +159,11 @@ i:hover {
   
   .home {
     background-image: linear-gradient(to bottom, var(--color-darker) , var(--color-dark));
+    color: white;
   }
-  
+
+  .button-home {
+    background-color: #424649;
+    border: 1px solid white;
+  }  
 }
