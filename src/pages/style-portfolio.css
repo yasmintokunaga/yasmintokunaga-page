@@ -11,7 +11,7 @@
 
 body {
   /* background-color: var(--color-bottom); */
-  background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
+  background-image: linear-gradient(to top, var(--color-top) , var(--color-bottom));
 }
 
 .pagePortfolio {
