@@ -70,7 +70,7 @@ class Skills extends React.Component {
       </main>
 
       <h2 className="showBlock">Habilidades comportamentais</h2>
-      <main className="showBlock skills-card">
+      <main className="skills-card block-soft-skills">
         { softSkills.map(({ skill, icon }) => (
           <div className="mb-3 skills-card-content showBlock">
             <i className={ icon }/>
@@ -85,6 +85,7 @@ class Skills extends React.Component {
         <a 
           href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           linkedin
         </a>

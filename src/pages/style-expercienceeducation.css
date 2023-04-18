@@ -1,12 +1,11 @@
 :root {
-  --color-top: rgb(158, 118, 143);
-  --color-bottom: rgb(219, 219, 217);
+  --color-top: rgba(158, 118, 143, 1);
+  --color-bottom: rgba(219, 219, 217, 1);
 }
 
 .pageExperienceEducation {
   background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
   height: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -19,7 +18,7 @@
 
 @media screen and (min-width: 765px) {
   .pageExperienceEducation {
-    justify-content: start;
+    justify-content: flex-start;
   }
   
   .pageExperienceEducation .card {
@@ -34,7 +33,7 @@
   .container-content-education {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .container-content-education img {
@@ -48,7 +47,7 @@
   .container-content-experience {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .container-content-experience img {
