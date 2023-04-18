@@ -40,36 +40,38 @@ class Portfolio extends React.Component {
     const { projects } = this.state;
     return(
       <section className="pagePortfolio">
-      <Header />
-      <h2>Portifólio</h2>
-      <main className="portfolio-card">
-        { projects.map(({ title, image, link, languages }) => (
-          <a 
-            className="mb-3 portfolio-card-content"
-            href={ link }
-            target="_blank"
-          >
-              <h6 className="fs-6">
-                { title }
-              </h6>
-              <img src={ image } className="foto-portifolio"/>
-              <p className="fs-6 text">
-                { languages }
-              </p>
-          </a>
-        ))}
-      </main>
-      <h6 className="mt-2">Acesso a todos os projetos em:</h6>
-      <p>
-        <a 
-          href="https://github.com/yasmintokunaga"
-          target="_blank"
-        >
-          gitHub
-        </a>
-      </p>
-        
-    </section>
+        <Header />
+        <h2>Portifólio</h2>
+        <div id="carouselExampleAutoplaying" className="carousel slide container-carousel carousel-dark" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            { projects.map(({ title, image, link, languages }, index) => (         
+              <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={ title }>
+                <h5>{ title }</h5>
+                <p>{ languages }</p>
+                <p></p>
+                <img src={ image } className="d-block w-100 foto-portifolio" alt={ title } />
+                <p> Visite a página
+                  {' '}
+                  <a 
+                    href={ link }
+                    target="_blank" rel="noreferrer"
+                  >
+                  aqui
+                  </a>
+                </p>       
+              </div>
+            ))}
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingDark" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     );
   }
 }

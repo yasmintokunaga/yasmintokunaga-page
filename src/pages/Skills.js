@@ -1,5 +1,5 @@
 import React from 'react';
-import filePDF from '../files/CV-YasminSouzaTokunaga.pdf'
+import filePDF from '../files/CV-YasminSouzaTokunaga.pdf';
 import Header from '../components/Header';
 import './style-skills.css';
 
@@ -56,52 +56,58 @@ class Skills extends React.Component {
     const { skills, softSkills } = this.state;
     return(
       <section className="pageSkills">
-      <Header />
-      <h2>Habilidades técnicas</h2>
-      <main className="skills-card">
-        { skills.map(({ skill, icon }) => (
-          <div className="mb-3 skills-card-content">
-            <i className={ icon }/>
+        <Header />
+        <h2>Habilidades técnicas</h2>
+        <main className="skills-card">
+          { skills.map(({ skill, icon }) => (
+            <div
+              className="mb-3 skills-card-content"
+              key={ skill }
+            >
+              <i className={ icon }/>
               <h6>
                 { skill }
               </h6>
-          </div>
-        ))}
-      </main>
+            </div>
+          ))}
+        </main>
 
-      <h2 className="showBlock">Habilidades comportamentais</h2>
-      <main className="skills-card block-soft-skills">
-        { softSkills.map(({ skill, icon }) => (
-          <div className="mb-3 skills-card-content showBlock">
-            <i className={ icon }/>
+        <h2 className="showBlock">Habilidades comportamentais</h2>
+        <main className="skills-card block-soft-skills">
+          { softSkills.map(({ skill, icon }) => (
+            <div 
+              className="mb-3 skills-card-content showBlock"
+              key={ skill }  
+            >
+              <i className={ icon }/>
               <h6>
                 { skill }
               </h6>
-          </div>
-        ))}
-      </main>
-      <h6 className="mt-2">Mais detalhes em:</h6>
-      <p>
-        <a 
-          href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+            </div>
+          ))}
+        </main>
+        <h6 className="mt-2">Mais detalhes em:</h6>
+        <p>
+          <a 
+            href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           linkedin
-        </a>
-        {' / '}
+          </a>
+          {' / '}
       
-      <a
-        className=""
-        href={ filePDF }
-        download="CV-YasminSouzaTokunaga"
-      >
+          <a
+            className=""
+            href={ filePDF }
+            download="CV-YasminSouzaTokunaga"
+          >
         Currículo completo
-      </a>
-      </p>
-    </section>
+          </a>
+        </p>
+      </section>
     );
   }
-};
+}
 
 export default Skills;

@@ -14,7 +14,7 @@ class App extends React.Component {
         <Route path="/skills" component={ Skills } />
         <Route path="/portfolio" component={ Portfolio } />
       </Switch>
-    )
+    );
   }
 }
 

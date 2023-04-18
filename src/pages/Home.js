@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import fotoPerfil from '../img/foto-perfil-3.jpg';
-import filePDF from '../files/CV-YasminSouzaTokunaga.pdf'
+import filePDF from '../files/CV-YasminSouzaTokunaga.pdf';
 import './style-home.css';
 
 class Home extends React.Component {
@@ -20,7 +20,7 @@ class Home extends React.Component {
         path: '/portfolio',
       },
     ]
-  }
+  };
   render() {
     const { links } = this.state;
     return(
@@ -47,17 +47,17 @@ class Home extends React.Component {
             <h1 className="fst-italic mb-4 fw-bold">Sobre mim</h1>
             <article>
               <p className="fst-italic">
-                <i class="fa-solid fa-heart fs-6 text"></i>
+                <i className="fa-solid fa-heart fs-6 text"></i>
                 {' '}
-                Paixão pela lógica, vontande de inovar e aprender
+                Paixão pela lógica
               </p>
               <p className="fst-italic">
-                <i class="fa-solid fa-lightbulb  fs-6 text"></i>
+                <i className="fa-solid fa-lightbulb  fs-6 text"></i>
                 {' '}
                 Vontande de inovar e aprender
               </p>
               <p className="fst-italic">
-                <i class="fa-solid fa-user-group  fs-6 text"></i>
+                <i className="fa-solid fa-user-group  fs-6 text"></i>
                 {' '}
                 Próposito de facilitar a vida de milhares de pessoas
               </p>
@@ -88,21 +88,21 @@ class Home extends React.Component {
           <div className="icons">
             <a 
               href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
             <a 
               href="https://github.com/yasmintokunaga"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
-              <i class="fa-brands fa-square-github"></i>
+              <i className="fa-brands fa-square-github"></i>
             </a>
             <a 
               href="https://wa.me/5511930059995"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
-              <i class="fa-brands fa-square-whatsapp"></i>
+              <i className="fa-brands fa-square-whatsapp"></i>
             </a>
           </div>
         </div>
@@ -111,6 +111,6 @@ class Home extends React.Component {
       </section>
     );
   }
-};
+}
 
 export default Home;

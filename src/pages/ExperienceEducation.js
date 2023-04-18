@@ -1,12 +1,12 @@
 import React from 'react';
 import './style-expercienceeducation.css';
 import Header from '../components/Header';
-import filePDF from '../files/CV-YasminSouzaTokunaga.pdf'
+import filePDF from '../files/CV-YasminSouzaTokunaga.pdf';
 
 import logoTrybe from '../img/logo-trybe.png';
-import logoUNESP from '../img/unesp-logo.png'
-import logoTenda from '../img/logo-tenda.png'
-import logoExtrafarma from '../img/logo-extrafarma.png'
+import logoUNESP from '../img/unesp-logo.png';
+import logoTenda from '../img/logo-tenda.png';
+import logoExtrafarma from '../img/logo-extrafarma.png';
 
 class ExperienceEducation extends React.Component {
   state = {
@@ -91,14 +91,15 @@ class ExperienceEducation extends React.Component {
         <section className="container-content-education">
           { education.map(({ title, school, year, logo }) => (
             <div
-              class="card m-3"
+              className="card m-3"
+              key={ school }
             >
               <img src={ logo } className="showBlock" alt={ title }/>
-              <div class="card-body">
-                <h6 class="card-title">
+              <div className="card-body">
+                <h6 className="card-title">
                   { title }
                 </h6>
-                <p class="card-text">
+                <p className="card-text">
                   { `${school} | ${year}` }
                 </p>
               </div>
@@ -108,14 +109,14 @@ class ExperienceEducation extends React.Component {
 
         <h2 className="mt-4">Experiências</h2>
         <section className="container-content-experience">
-          { experience.map(({ post, company, year, logo}) => (
-            <div class="card m-3">
+          { experience.map(({ post, company, year, logo, key }) => (
+            <div className="card m-3" key={ key }>
               <img src={ logo } className="showBlock" alt={ company }/>
-              <div class="card-body">
-                <h6 class="card-title">
+              <div className="card-body">
+                <h6 className="card-title">
                   { post }
                 </h6>
-                <p class="card-text">
+                <p className="card-text">
                   { `${company} | ${year}` }
                 </p>
               </div>
@@ -131,23 +132,23 @@ class ExperienceEducation extends React.Component {
         <p>
           <a 
             href="https://www.linkedin.com/in/yasmin-souza-tokunaga/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             linkedin
           </a>
           {' / '}
         
-        <a
-          className=""
-          href={ filePDF }
-          download="CV-YasminSouzaTokunaga"
-        >
+          <a
+            className=""
+            href={ filePDF }
+            download="CV-YasminSouzaTokunaga"
+          >
           Currículo completo
-        </a>
-      </p>
+          </a>
+        </p>
       </section>
     );
   }
-};
+}
 
 export default ExperienceEducation;
