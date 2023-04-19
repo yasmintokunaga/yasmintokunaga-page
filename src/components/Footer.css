@@ -17,6 +17,19 @@ footer .navbar i {
   font-size: 30px;
 }
 
+footer .navbar .fa-house {
+  font-size: 18px;
+  color: var(--color-bottom);
+  padding: 4px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  background-color: #212529;
+}
+
+footer .navbar .fa-house:hover {
+  background-color: #495057;
+}
+
 @media screen and (min-width: 765px) {
   footer .navbar {
     display: none;
@@ -33,5 +46,10 @@ footer .navbar i {
 
   footer .navbar i {
     color: var(--color-light-gray);
+  }
+
+  footer .navbar .fa-house {
+    color: var(--color-darker);
+    background-color: var(--color-light-gray);
   }
 }
