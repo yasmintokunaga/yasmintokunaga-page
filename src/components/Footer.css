@@ -1,16 +1,33 @@
 :root {
   --color-top: rgb(158, 118, 143);
   --color-bottom: rgb(219, 219, 217);
+  --color-dark: rgba(22, 27, 34, 1);
+  --color-darker: rgba(26, 27, 28, 1);
+  --color-gray: rgba(33, 38, 45, 1);
+  --color-light-gray: rgba(201, 208, 206, 1);
 }
 
 footer .navbar {
   padding: 8px 15px;
   background-color: var(--color-bottom);
-  border-top: 2px solid rgb(202,191,196);
+  border-top: 2px solid rgb(202, 191, 196);
 }
 
 @media screen and (min-width: 765px) {
   footer .navbar {
     display: none;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+  footer .navbar {
+    background-color: var(--color-darker);
+    border-top: 2px solid var(--color-gray);
+    color: var(--color-light-gray);
+  }
+
+  footer .navbar i {
+    color: var(--color-light-gray);
   }
 }

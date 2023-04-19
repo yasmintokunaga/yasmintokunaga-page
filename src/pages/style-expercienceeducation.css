@@ -1,6 +1,10 @@
 :root {
   --color-top: rgba(158, 118, 143, 1);
   --color-bottom: rgba(219, 219, 217, 1);
+  --color-dark: rgba(22, 27, 34, 1);
+  --color-darker: rgba(26, 27, 28, 1);
+  --color-gray: rgba(33, 38, 45, 1);
+  --color-light-gray: rgba(201, 208, 206, 1);
 }
 
 * {
@@ -75,4 +79,22 @@ body {
     display: block;
   }
 
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-darker);
+    color: var(--color-light-gray);
+  }
+  
+  .pageExperienceEducation {
+    background-color: var(--color-darker);
+    color: var(--color-light-gray);
+  }
+
+  .pageExperienceEducation .card {
+    background-color: var(--color-dark);
+    border: var(--color-gray);
+    color: var(--color-light-gray);
+  }
 }

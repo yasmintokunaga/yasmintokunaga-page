@@ -1,8 +1,10 @@
 :root {
   --color-top: rgba(158, 118, 143, 1);
   --color-bottom: rgba(219, 219, 217, 1);
-  --color-dark: rgba(31, 38, 49, 1);
-  --color-darker: rgba(26, 27, 28, 0);
+  --color-dark: rgba(22, 27, 34, 1);
+  --color-darker: rgba(26, 27, 28, 1);
+  --color-gray: rgba(33, 38, 45, 1);
+  --color-light-gray: rgba(201, 208, 206, 1);
 }
 
 * {
@@ -12,12 +14,13 @@
 }
 
 body {
-  background-image: linear-gradient(to top, var(--color-top) , var(--color-bottom));
+  background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
 }
 
 .home {
   background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,16 +156,22 @@ i:hover {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-dark);
+    background-color: var(--color-darker);
+    color: var(--color-light-gray);
   }
   
   .home {
-    background-image: linear-gradient(to bottom, var(--color-darker) , var(--color-dark));
-    color: white;
+    background-color: var(--color-darker);
+    color: var(--color-light-gray);
   }
 
   .button-home {
-    background-color: #424649;
-    border: 1px solid white;
-  }  
+    background-color: var(--color-dark);
+    border: var(--color-gray);
+    color: var(--color-light-gray);
+  }
+
+  i {
+    color: var(--color-light-gray);
+  }
 }

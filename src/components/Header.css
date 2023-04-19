@@ -1,4 +1,22 @@
 :root {
   --color-top: rgb(158, 118, 143);
   --color-bottom: rgb(219, 219, 217);
+  --color-dark: rgba(22, 27, 34, 1);
+  --color-darker: rgba(26, 27, 28, 1);
+  --color-gray: rgba(33, 38, 45, 1);
+  --color-light-gray: rgba(201, 208, 206, 1);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+  header .navbar {
+    color: var(--color-light-gray);
+  }
+
+
+  .navbar .offcanvas {
+    background-color: var(--color-darker);
+    border: 2px solid var(--color-gray);
+    color: var(--color-light-gray);
+  }
 }
