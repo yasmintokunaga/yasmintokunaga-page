@@ -5,6 +5,7 @@ import fotoTrybeTunes from '../img/trybetunes.png';
 import fotoSuperTryunfo from '../img/super-tryunfo.png';
 import './style-portfolio.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 class Portfolio extends React.Component {
   state = {
@@ -73,6 +74,7 @@ class Portfolio extends React.Component {
             </button>
           </div>
         </section>
+        <Footer />
       </>
     );
   }

@@ -7,13 +7,13 @@ import Icons from './Icons';
 class Header extends React.Component {
   render() {
     return(
-      <header>
+      <header className="showBlock">
         <nav className="navbar fixed-top">
           <div className="container-fluid">
             <button className="navbar-toggler fs-6 text" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <span className="showBlock fs-5 text">
+            <span className="fs-5 text">
               Yasmin Souza Tokunaga
             </span>
             <Icons />

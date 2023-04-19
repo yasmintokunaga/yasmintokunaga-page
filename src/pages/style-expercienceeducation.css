@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 60px 20px;
+  padding: 8px 20px 85px 20px;
 }
 
 .showBlock {

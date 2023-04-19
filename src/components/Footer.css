@@ -1,0 +1,16 @@
+:root {
+  --color-top: rgb(158, 118, 143);
+  --color-bottom: rgb(219, 219, 217);
+}
+
+footer .navbar {
+  padding: 8px 15px;
+  background-color: var(--color-bottom);
+  border-top: 2px solid rgb(202,191,196);
+}
+
+@media screen and (min-width: 765px) {
+  footer .navbar {
+    display: none;
+  }
+}

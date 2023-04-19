@@ -17,15 +17,15 @@ body {
 .pagePortfolio {
   background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
   display: flex;
+  height: 90vh;
   flex-direction: column;
-  padding: 60px 20px;
+  justify-content: center;
+  padding: 8px 20px 85px 20px;
 }
 
 .container-carousel {
   width: 90%;
-  margin: 30px auto;
-  /* text-align: center; */
-  /* border: 2px red solid; */
+  margin: auto;
   background-color: rgba(219, 219, 217, 0.5);
   border-radius: 10px;
   padding: 10px;
@@ -35,7 +35,7 @@ body {
   object-fit: contain;
   border-radius: 0;
   min-width: 90%;
-  min-height: 400px;
+  max-height: 400px;
   /* min-height: 400px; */
   margin: 10px 0;
 }
@@ -45,7 +45,8 @@ body {
     background-image: linear-gradient(to bottom, var(--color-top) , var(--color-bottom));
     display: flex;
     flex-direction: column;
-    padding: 100px 20px;
+    height: 100vh;
+    padding: 120px 20px;
   }
 
   .container-carousel {

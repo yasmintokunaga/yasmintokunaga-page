@@ -2,6 +2,7 @@ import React from 'react';
 import filePDF from '../files/CV-YasminSouzaTokunaga.pdf';
 import Header from '../components/Header';
 import './style-skills.css';
+import Footer from '../components/Footer';
 
 class Skills extends React.Component {
   state = {
@@ -104,6 +105,7 @@ class Skills extends React.Component {
             Currículo completo
           </a>
         </p>
+        <Footer />
       </section>
     );
   }

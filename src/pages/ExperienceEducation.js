@@ -7,6 +7,7 @@ import logoTrybe from '../img/logo-trybe.png';
 import logoUNESP from '../img/unesp-logo.png';
 import logoTenda from '../img/logo-tenda.png';
 import logoExtrafarma from '../img/logo-extrafarma.png';
+import Footer from '../components/Footer';
 
 class ExperienceEducation extends React.Component {
   state = {
@@ -144,6 +145,7 @@ class ExperienceEducation extends React.Component {
             </a>
           </p>
         </section>
+        <Footer />
       </>
     );
   }
