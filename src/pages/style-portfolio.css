@@ -73,18 +73,22 @@ body {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-darker);
+    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
     color: var(--color-light-gray);
   }
   
   .pagePortfolio {
-    background-color: var(--color-darker);
+    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
     color: var(--color-light-gray);
   }
 
   .container-carousel {
-    background-color: var(--color-dark);
-    border: var(--color-gray);
+    background-color: var(--color-gray);
+    border: var(--color-light-gray);
+    color: var(--color-light-gray);
+  }
+
+  .container-carousel a {
     color: var(--color-light-gray);
   }
 }

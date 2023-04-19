@@ -13,6 +13,10 @@ footer .navbar {
   border-top: 2px solid rgb(202, 191, 196);
 }
 
+footer .navbar i {
+  font-size: 30px;
+}
+
 @media screen and (min-width: 765px) {
   footer .navbar {
     display: none;
@@ -24,7 +28,7 @@ footer .navbar {
   footer .navbar {
     background-color: var(--color-darker);
     border-top: 2px solid var(--color-gray);
-    color: var(--color-light-gray);
+    color: var(--color-gray);
   }
 
   footer .navbar i {
