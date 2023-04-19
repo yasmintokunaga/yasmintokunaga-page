@@ -83,18 +83,22 @@ body {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-darker);
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
   
   .pageExperienceEducation {
-    background-color: var(--color-darker);
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
 
   .pageExperienceEducation .card {
-    background-color: var(--color-dark);
-    border: var(--color-gray);
+    background-color: var(--color-darker);
+    border: var(--color-light-gray);
+    color: var(--color-light-gray);
+  }
+
+  .pageExperienceEducation a {
     color: var(--color-light-gray);
   }
 }

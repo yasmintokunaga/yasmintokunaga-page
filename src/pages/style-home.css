@@ -156,18 +156,18 @@ i:hover {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
   
   .home {
-    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
 
-  .home .rigth-container .btn {
+  .home .btn-dark {
     background-color: var(--color-dark);
-    border: var(--color-gray);
+    border: var(--color-light-gray);
     color: var(--color-light-gray);
   }
 

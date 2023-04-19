@@ -106,22 +106,22 @@ body {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
   
   .pageSkills {
-    background-image: linear-gradient(to bottom, var(--color-top) , var(--color-darker));
+    background-image: linear-gradient(to bottom, var(--color-gray) , var(--color-gray));
     color: var(--color-light-gray);
   }
 
-  .skills-card {
-    background-color: var(--color-gray);
+  .skills-card-content {
+    background-color: var(--color-darker);
     border: var(--color-light-gray);
     color: var(--color-light-gray);
   }
 
-  .skills-card {
+  .pageSkills a {
     color: var(--color-light-gray);
   }
 }
