@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yasmintokunaga-page/static/css/main.4280553b.css",
+    "main.css": "/yasmintokunaga-page/static/css/main.5849e3d7.css",
     "main.js": "/yasmintokunaga-page/static/js/main.1b84cf2f.js",
     "static/js/787.cc343b0f.chunk.js": "/yasmintokunaga-page/static/js/787.cc343b0f.chunk.js",
     "static/media/foto-perfil-3.jpg": "/yasmintokunaga-page/static/media/foto-perfil-3.efa0e9642905176e28b2.jpg",
@@ -13,12 +13,12 @@
     "static/media/unesp-logo.png": "/yasmintokunaga-page/static/media/unesp-logo.25f77b5dbac6abe0b6f5.png",
     "static/media/logo-tenda.png": "/yasmintokunaga-page/static/media/logo-tenda.bf35db7c5e1c95d54454.png",
     "index.html": "/yasmintokunaga-page/index.html",
-    "main.4280553b.css.map": "/yasmintokunaga-page/static/css/main.4280553b.css.map",
+    "main.5849e3d7.css.map": "/yasmintokunaga-page/static/css/main.5849e3d7.css.map",
     "main.1b84cf2f.js.map": "/yasmintokunaga-page/static/js/main.1b84cf2f.js.map",
     "787.cc343b0f.chunk.js.map": "/yasmintokunaga-page/static/js/787.cc343b0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4280553b.css",
+    "static/css/main.5849e3d7.css",
     "static/js/main.1b84cf2f.js"
   ]
 }
